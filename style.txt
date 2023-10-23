@@ -1,0 +1,13 @@
+body{
+  background-color:Blue;
+}
+h1{
+  text-align:Center;
+}
+p{
+  text-align:Center;
+  font-size:25px;
+  font-family: Sans-serif;
+  text-decoration:underline;
+  
+}

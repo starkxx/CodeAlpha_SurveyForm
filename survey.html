@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <title>Survey Form</title>
+    </head>
+  <body>
+    <header>
+      <h1 id="title"> MOVIE SURVEY</h1>
+      </header>
+      <main>
+        <form id="survey-form">
+          <label for="name" id="name-label">Please enter your name:</label>
+          <input id="name" type="text" required placeholder="James">
+          <hr>
+          <label for="email" id="email-label">Please enter your email:</label>
+          <input id="email" type="email" required placeholder="james18@gmail.com">
+          <hr>
+          <label for="number" id="number-label">Please enter your age:</label>
+          <input id="number" type="number" min="7" max="100" required placeholder="Age">
+          <hr>
+          <label for="dropdown">Comedy or Romance:</label>
+          <select id="dropdown">
+            <option>Comedy</option>
+            <option>Romance</option>
+          </select>
+          <hr>
+          <label for="Favourite Movie" id="Favourite-label">Enter your favourite movie name:</label>
+          <input id="Favourite-label" type="text" size="30" required placeholder="Example - Zindagi Na Milegi Dobara">
+        </hr>
+<hr>
+<label>Action or Drama:</label>
+<select id="dropdown">
+  <option>Action</option>
+  <option>Drama</option>
+</select>
+<hr>
+<fieldset>
+    <p1>Favourite Genre</p1>
+    <hr>
+<label> <input type="radio" name="Suspense"  checked value="susp">Suspense</label>
+<label><input  type="radio" name="Suspense" value="thrill">Thriller</label>
+<label><input type="radio" name="Suspense" value="feel">Feel-Good</label>
+</fieldset>
+        <hr>
+    <fieldset>
+      <label>How do you select a movie to watch?</label>
+      <hr>
+    <label><input type="checkbox" value="cast" class="inline">Cast</label>
+    <label><input type="checkbox" class="inline" value="director">Director</label>
+    <label><input type="checkbox" value="genre" class="inline">Genre</label>
+    <label><input type="checkbox" value="imdb" class="inline">imDb Ratings</label>
+      </fieldset>
+<hr>
+<div class="container">
+  <button type="submit">Submit</button>
+</div>
+ </form>
+ </main>
+ </body>
+  </html>
